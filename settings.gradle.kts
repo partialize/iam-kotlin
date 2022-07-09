@@ -1,4 +1,4 @@
-rootProject.name = "spring-webflux-boilerplate"
+rootProject.name = "iam"
 
 fun includeModules(pathname: String) {
     File(pathname).listFiles()?.forEach {

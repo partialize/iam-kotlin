@@ -1,0 +1,9 @@
+package io.github.partialize.auth.domain.cors
+
+import org.springframework.web.cors.CorsConfiguration
+import org.springframework.web.server.ServerWebExchange
+import reactor.core.publisher.Mono
+
+interface CorsConfigurationSource {
+    fun getCorsConfiguration(exchange: ServerWebExchange): Mono<CorsConfiguration>
+}

@@ -57,7 +57,7 @@ tasks {
     }
 }
 
-group = "io.github.siyual-park"
+group = "io.github.partialize"
 version = "0.0.0-SNAPSHOT"
 
 allprojects {
